@@ -5,7 +5,6 @@ const Card = (props) => {
       <h2>{props.title}</h2>
       <p className="">{props.description}</p>
       <p>{props.year}</p>
-      <button className="">Add to favorites</button>
     </div>
   );
 };
